@@ -1,0 +1,6 @@
+CREATE TABLE `Prueba`.`actividad` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `nombre` VARCHAR(40) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL , `apellido` VARCHAR(40) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL , `edad` TINYINT(2) NOT NULL , `fecha` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , `provincia` VARCHAR(30) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+INSERT INTO `actividad` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('1', 'martin', 'bugao', '30', current_timestamp(), 'Cordoba');
+INSERT INTO `actividad` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('2', 'federico', 'corrionero', '32', current_timestamp(), 'la pampa');
+INSERT INTO `actividad` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('3', 'juan', 'pelayo', '30', current_timestamp(), 'cordoba');
+INSERT INTO `actividad` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('4', 'rocio', 'bugao', '32', current_timestamp(), 'cordoba');
+INSERT INTO `actividad` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `provincia`) VALUES ('5', 'hugo', 'bugao', '68', current_timestamp(), 'la pampa');
